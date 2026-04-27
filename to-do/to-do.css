@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: wheat;
+}
+.Container {
+  display: flex;
+  width: 377px;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: center;
+}
+.input {
+  display: flex;
+  gap: 8px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+.taskList {
+  display: flex;
+  width: 345px;
+  padding: 16px;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.button {
+  padding: 8px 16px;
+  color: black;
+  border-radius: 4px;
+}
+
+.pine {
+  display: flex;
+  gap: 8px;
+}
+.color {
+  color: royalblue;
+}
+li button {
+  width: 60px;
+  height: 30px;
+  background: red;
+}
+
+.list {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 30px;
+}
+.li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
