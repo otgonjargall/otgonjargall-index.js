@@ -40,8 +40,8 @@ body {
 
 .button {
   padding: 8px 16px;
-  color: black;
-  border-radius: 4px;
+  border-radius: 10px;
+  
 }
 
 .pine {
@@ -52,9 +52,10 @@ body {
   color: royalblue;
 }
 li button {
-  width: 60px;
+  width: 80px;
   height: 30px;
   background: red;
+  border-radius: 10px;
 }
 
 .list {
@@ -67,5 +68,7 @@ li button {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row-reverse;
+  gap: 25px;
+
+
 }
