@@ -1,7 +1,7 @@
 let taskList = document.getElementById("taskList");
 let input = document.getElementById("Input");
 
-let todos = [];
+let todos = [ ];
 
 function addTask() {
   const task = input.value.trim();
